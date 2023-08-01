@@ -1,0 +1,83 @@
+/* Global styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background color for the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the card and heading in the registration section */
+  .card {
+    background-color: #ffffff; /* White background color for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form inputs */
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%; /* Take up the full width of the container */
+    margin-bottom: 10px;
+    color: #000; /* Black text color for the form inputs */
+    font-weight: bold; /* Make the form input labels bold */
+    background-color: #f0f7ff; /* Blue color when typing */
+  }
+  
+  /* Make the form inputs blue on focus */
+  .form-control:focus {
+    border-color: #007bff; /* Dark blue border color on focus */
+    color: #007bff; /* Dark blue text color on focus */
+  }
+  
+  /* Style for the Submit button */
+  .btn-primary {
+    background-color: transparent; /* Transparent background for the Submit button */
+    border-color: #007bff; /* Dark blue border color */
+    color: #007bff; /* Dark blue text color for the button */
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded edges for the Submit button */
+    cursor: pointer;
+  }
+  
+  /* Style for the Sign In button */
+  .signin-btn {
+    background-color: transparent; /* Transparent background for the Sign In button */
+    border-color: #007bff; /* Dark blue border color */
+    color: #007bff; /* Dark blue text color for the button */
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded edges for the Sign In button */
+    cursor: pointer;
+  }
+  
+  /* Add small space between buttons */
+  .btn-primary + .signin-btn {
+    margin-left: 8px;
+  }
+  
+  /* Change background color and text color on hover for Submit and Sign In buttons */
+  .btn-primary:hover,
+  .signin-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Add some spacing between sections */
+  .container {
+    margin-bottom: 40px;
+  }
+  
+  /* Position the Back button to the right */
+  .d-flex.justify-content-end.mb-3 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 16px;
+  }
+  

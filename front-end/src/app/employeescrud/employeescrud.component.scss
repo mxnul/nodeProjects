@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Global styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background color for the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the card and heading in the registration section */
+  .card {
+    background-color: #ffffff; /* White background color for the card */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form inputs */
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%; /* Take up the full width of the container */
+    margin-bottom: 10px;
+    color: #000; /* Black text color for the form inputs */
+    font-weight: bold; /* Make the form input labels bold */
+  }
+  
+  /* Make the form inputs blue on focus */
+  .form-control:focus {
+    border-color: #007bff; /* Dark blue border color on focus */
+    color: #007bff; /* Dark blue text color on focus */
+  }
+  
+  /* Style for the Submit button */
+  .btn-primary {
+    background-color: transparent; /* Transparent background for the Submit button */
+    border-color: #1976d2; /* Dark blue border color */
+    color: #1976d2; /* Dark blue text color for the button */
+    padding: 10px 20px;
+    border-radius: 50px; /* Circle edges for the Submit button */
+    cursor: pointer;
+  }
+  
+  /* Style for the table */
+  .table {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Take up the full width of the container */
+  }
+  
+  /* Style for the table headings */
+  thead {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for the table rows */
+  tbody tr {
+    transition: background-color 0.2s ease-in-out; /* Add a smooth transition on hover */
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+  }
+  
+  /* Style for the Update and Delete buttons */
+  .btn-success,
+  .btn-danger {
+    background-color: transparent; /* Transparent background for the buttons */
+    border-color: #007bff; /* Blue border color for both buttons */
+    color: #007bff; /* Blue text color for the buttons */
+    padding: 5px 10px;
+    border-radius: 50px; /* Circle edges for the buttons */
+    cursor: pointer;
+  }
+  
+  /* On hover, darken the buttons */
+  .btn-success:hover,
+  .btn-danger:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Transparent blue color on hover */
+  }
+  
+  /* Style for the Employee Table heading */
+  h1 {
+    color: #000; /* Black color for the heading */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the heading text bold */
+  }
+  
+  /* Add some spacing between sections */
+  .container {
+    margin-bottom: 40px;
+  }
+  
